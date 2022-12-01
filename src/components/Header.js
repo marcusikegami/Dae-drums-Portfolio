@@ -13,7 +13,7 @@ export default function Header() {
             <a href="#video" className="sm:text-l lg:text-xl drop-shadow-lg font-bold text-softblack hover:drop-shadow-lg hover:text-darkpurple hover:underline underline-offset-4 px-2">Videos</a>
           </div>
         </div>
-        {/* <div className="w-full h-2 bg-white drop-shadow-md" /> */}
+        <div className="w-full h-2 bg-white drop-shadow-md" />
       </div>
   )
 };
