@@ -1,5 +1,5 @@
 import Header from './components/Header';
-import shrinelogo from './assets/images/shrine.jpeg';
+import dae from './assets/images/dae.jpg';
 import Contact from './components/Contact';
 import Video from './components/Video';
 import {AiFillYoutube, AiFillInstagram} from "react-icons/ai";
@@ -22,8 +22,8 @@ function App() {
             </a>
           </div>
         <body className='sm:mx-4 flex flex-col items-center'>
-          <div className='flex flex-col items-center justify-center h-auto sm:mx-20 md:mx-40 md:my-8 border-lightpurple pt-16'>
-            <img alt='Shrine live at 9th and 9th Book and Music Festival' src={shrinelogo} title="Shrine live at 9th and 9th Book and Music Festival"/>
+          <div className='flex flex-col items-center justify-center w-3/5 md:w-1/3 lg:w-1/4 h-auto sm:mx-20 md:mx-40 md:my-8 border-lightpurple pt-16'>
+            <img alt='Dae Bryant playing his kit at Hopkins Brewery 2021' src={dae} title="Shrine live at 9th and 9th Book and Music Festival"/>
           </div>
         <Contact />
         <Video />
