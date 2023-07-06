@@ -70,10 +70,17 @@ const Video = () => {
         loading="lazy"
         title="Solo - Black Focus"
       ></iframe>
-      <h3 className="font-bold text-md sm:text-xl text-darkpurple pb-4 pt-12">
+      {/* <h3 className="font-bold text-md sm:text-xl text-darkpurple pb-4 pt-12">
         Solo - Chameleon
-      </h3>
-      {/* <iframe src="https://drive.google.com/file/d/1lTT44q_ZxNiMtnyT0g-GMEJKZdZhsUIV/preview" width="100%" height="300" allow="autoplay" loading="lazy" title="Solo - Chameleon"></iframe> */}
+      </h3> */}
+      {/* <iframe
+        src="https://drive.google.com/file/d/1lTT44q_ZxNiMtnyT0g-GMEJKZdZhsUIV/preview"
+        width="100%"
+        height="300"
+        allow="autoplay"
+        loading="lazy"
+        title="Solo - Chameleon"
+      ></iframe> */}
       <h3 className="font-bold text-md sm:text-xl text-darkpurple pb-4 pt-12">
         Emil Welker, Ben Olmstead - Actual Proof Solo
       </h3>
